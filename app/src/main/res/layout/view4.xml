@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.wanglijun.xiami.xiami.XiamiContainer
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:orientation="vertical">
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="318dp"
+                android:text="更好的看清这个波浪线的重叠效果"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                 />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/img9" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/img9" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/img9" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</com.wanglijun.xiami.xiami.XiamiContainer>
+
